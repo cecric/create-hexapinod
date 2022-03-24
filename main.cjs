@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { program } = require('commander');
 const prompts = require('prompts');
 const fs = require('fs');
