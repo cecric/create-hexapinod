@@ -1,0 +1,45 @@
+{
+  "name": "create-hexapinod",
+  "version": "1.0.0",
+  "description": "Easily generate a new Hexapinod projet with the selected features.",
+  "main": "main.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecric/create-hexapinod.git"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "contributors": [
+    {
+      "name": "Cédric LESEC",
+      "email": "cedric.lesec@gmail.com"
+    }
+  ],
+  "private": false,
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/cecric/create-hexapinod/issues",
+    "email": "cedric.lesec@gmail.com"
+  },
+  "homepage": "https://github.com/cecric/create-hexapinod#readme",
+  "bin": {
+    "create-hexapinod": "main.cjs",
+    "ch": "main.cjs"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://www.buymeacoffee.com/cecric"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "commander": "^9.1.0",
+    "prompts": "^2.4.2"
+  }
+}
