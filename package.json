@@ -1,6 +1,6 @@
 {
   "name": "create-hexapinod",
-  "version": "v1.0.0",
+  "version": "1.0.0",
   "description": "Easily generate a new Hexapinod projet with the selected features.",
   "main": "main.cjs",
   "scripts": {
