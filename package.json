@@ -2,7 +2,7 @@
   "name": "create-hexapinod",
   "version": "1.0.0",
   "description": "Easily generate a new Hexapinod projet with the selected features.",
-  "main": "index.js",
+  "main": "main.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
