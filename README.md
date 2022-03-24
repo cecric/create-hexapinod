@@ -6,5 +6,5 @@ Script to install the [Hexapinod](https://github.com/cecric/hexapinod/) project 
 
 To perform the installation of the project, just type :
 ```
-npm init create-hexapinod
+npm init hexapinod
 ```
