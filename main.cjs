@@ -182,7 +182,14 @@ async function initialize () {
             },
             'typeorm': {
                 'title': 'TypeORM',
-                'files_to_remove': ['config/dependencies/typeorm.json', 'src/application/cli/typeorm.command.ts', 'src/dependencies/typeorm-wrapper'],
+                'files_to_remove': [
+                    'config/dependencies/typeorm.json',
+                    'src/application/cli/typeorm.command.ts',
+                    'src/dependencies/typeorm-wrapper',
+                    'src/core/hexapinod/services/ormrepositories.service.ts',
+                    'src/core/example/models/exampleorm.ts',
+                    'src/infrastructure/repositories/exampleorm.typeorm.repo.ts'
+                ],
                 'packages_to_remove': ['typeorm']
             }
         }, packageData, projectPath);
